@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    
+    <!-- Outer Cycle Ring (66dp area centered around 54,54) -->
+    <path
+        android:pathData="M54,28 A26,26 0 1,1 28,54"
+        android:strokeWidth="3.5"
+        android:strokeColor="#818CF8"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000" />
+        
+    <!-- Cycle dots -->
+    <path
+        android:pathData="M54,28m-2.5,0a2.5,2.5 0 1,1 5,0a2.5,2.5 0 1,1 -5,0"
+        android:fillColor="#C084FC" />
+    <path
+        android:pathData="M80,54m-2.5,0a2.5,2.5 0 1,1 5,0a2.5,2.5 0 1,1 -5,0"
+        android:fillColor="#38BDF8" />
+    <path
+        android:pathData="M54,80m-2.5,0a2.5,2.5 0 1,1 5,0a2.5,2.5 0 1,1 -5,0"
+        android:fillColor="#F472B6" />
+
+    <!-- Center Crescent Moon & Alarm Bell motif -->
+    <!-- Glowing crescent moon -->
+    <path
+        android:pathData="M55,36 C45.06,36 37,44.06 37,54 C37,63.94 45.06,72 55,72 C58.26,72 61.32,71.13 63.96,69.62 C56.66,67.36 51.4,60.54 51.4,52.5 C51.4,44.46 56.66,37.64 63.96,35.38 C61.32,33.87 58.26,33 55,33 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="37"
+                android:startY="33"
+                android:endX="64"
+                android:endY="72"
+                android:type="linear">
+                <item android:color="#FDE047" android:offset="0.0" />
+                <item android:color="#F59E0B" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Clock hands inside moon / center -->
+    <path
+        android:pathData="M51.5,52.5 L51.5,45"
+        android:strokeWidth="2.5"
+        android:strokeColor="#FFFFFF"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000" />
+    <path
+        android:pathData="M51.5,52.5 L57,56"
+        android:strokeWidth="2.5"
+        android:strokeColor="#FFFFFF"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000" />
+
+    <!-- Little star sparkle -->
+    <path
+        android:pathData="M69,40 L70,43 L73,44 L70,45 L69,48 L68,45 L65,44 L68,43 Z"
+        android:fillColor="#FFFFFF" />
+    <path
+        android:pathData="M74,53 L74.7,55 L77,55.7 L74.7,56.4 L74,58.7 L73.3,56.4 L71,55.7 L73.3,55 Z"
+        android:fillColor="#E0E7FF" />
+</vector>

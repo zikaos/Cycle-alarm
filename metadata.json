@@ -1,0 +1,7 @@
+{
+  "name": "Cycle Alarm",
+  "description": "Sleep cycle alarm calculator based on 90-minute sleep cycles with instant alarm setting and nighttime mode",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+
